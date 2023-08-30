@@ -9,3 +9,6 @@ body {
 body {
 	@apply dark:bg-black dark:text-white;
 }
+.class {
+	white-space: pre-line;
+}
