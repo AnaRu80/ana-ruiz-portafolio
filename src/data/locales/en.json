@@ -1,0 +1,15 @@
+{
+	"home": {
+		"homeIntro": "Welcome to my digital world! I'm a developer with a passion for crafting interactive experiences using JS frameworks and Node. From coding elegant interfaces to creating mobile marvels, I'm dedicated to turning ideas into reality."
+	},
+	"aboutMeTitle": "About Me",
+	"aboutMeContent": "I am a former electronic engineer who found her true passion in development. With over five years of experience, I've gone from crafting user interfaces in React to building more extensive applications using Node.js. <br/><br/> My journey also led me to master React Native, enabling me to create captivating mobile apps. Beyond the screen, you'll find me engrossed in series, exploring new places, or dancing salsa. Let's collaborate and turn ideas into reality!",
+	"contact": {
+		"contactTitle": "Get in Touch",
+		"contactContent": "Have a question, an idea, or just want to say hi? Feel free to drop me a message, and I'll get back to you as soon as possible!"
+	},
+	"footer": {
+		"footerTitle": "LET'S WORK<br/>TOGETHER",
+		"footerContent": "Made With ❤ <br/>by Ana Ruiz"
+	}
+}

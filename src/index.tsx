@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import translations from './data/locales';
+
+const i18nConfig: any = {
+	resources: translations,
+	lng: 'en',
+	fallbackLng: 'en',
+	transSupportBasicHtmlNodes: true,
+	interpolation: { escapeValue: false }
+};
+
+i18n.use(initReactI18next).init(i18nConfig);
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
 );
+
 root.render(
 	<React.StrictMode>
 		<App />

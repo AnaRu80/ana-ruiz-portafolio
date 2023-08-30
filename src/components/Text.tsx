@@ -7,8 +7,9 @@ interface TextProps {
   classNameText?: string;
   text?: string;
   type?: TypeText;
+  children?: React.ReactNode;
 }
-export const Text = ({ size, fontWeight = "normal", classNameText, text, type = "default" }: TextProps) => {
+export const Text = ({ size, fontWeight = "normal", classNameText, text, type = "default", children }: TextProps) => {
   const defaultText = "align-center self-center"
   const textSize = size ? `text-${size}` : '';
   const textType = type === "default" ? `text-black dark:text-white` :
@@ -17,6 +18,7 @@ export const Text = ({ size, fontWeight = "normal", classNameText, text, type = 
   const classNameStyle = classNameText ? classNameText : '';
 
   const combinedClasses = `${defaultText} ${textSize} ${textFontWeight} ${textType} ${classNameStyle}`;
-  return <p className={combinedClasses}>{text}</p>;
+  return <p className={combinedClasses}>{children || text}</p>
+
 };
 

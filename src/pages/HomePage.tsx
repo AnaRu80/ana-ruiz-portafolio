@@ -1,24 +1,28 @@
 import { Socials, Text } from '../components';
-import { NavBar } from '../features/NavBarFeature/Navbar';
-import data from "../data/portfolio.json";
-import { Card } from '../components/Card';
+import { useTranslation } from 'react-i18next';
+import { ContactFeature, FooterFeature } from '../features';
+import WomanCoding from "../assets/svg/woman-coding.svg"
 
 export function HomePage() {
+  const { t } = useTranslation();
+
   return (
     <div className='h-full dark:bg-black ' >
-      <div className="container p-4 mx-auto mb-10">
-        <div >
-          <div className="mt-5">
-            <Text size='3xl' fontWeight='bold' text='Hello' />
-            <Text size='2xl' fontWeight='bold' text="I'm Ana, and I bring ideas to life through development magic ✨" />
-            <Socials className="mt-5 laptop:mt-5" />
+      <div className="flex flex-col sm:flex-row px-4">
+        <div className="flex flex-col justify-center items-center sm:w-1/2">
+          <Text size='3xl' fontWeight='bold' text='Hello' />
+          <Text size='3xl' fontWeight='bold' text="I'm Ana" />
+          <Text size='2xl' fontWeight='bold' text={t('home.homeIntro')} />
 
-          </div>
-          <Text size='3xl' fontWeight='bold' text='Work' />
-
-
-          {/* <Socials className="mt-2 laptop:mt-5" /> */}
         </div>
+        <div className="flex justify-center items-center sm:w-1/2">
+          <img
+            src={WomanCoding}
+            alt='Woman developing'
+          />
+        </div>
+
+        {/* <Socials className="mt-2 laptop:mt-5" /> */}
         {/* <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
@@ -84,8 +88,10 @@ export function HomePage() {
           {/* This button should not go into production */}
 
 
-        {/* <Footer /> */}
       </div>
+      <ContactFeature />
+
     </div>
   )
 }
+

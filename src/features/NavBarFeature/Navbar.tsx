@@ -1,5 +1,6 @@
 import { DarkModeSwitch, NavMenuButton } from './components';
 import AIcon from '../../assets/svg/a-icon.svg';
+import { LanguageSwitcher } from '../../components';
 export const NavBar: React.FC = () => {
 
 
@@ -13,6 +14,7 @@ export const NavBar: React.FC = () => {
         />
 
       </a>
+      <LanguageSwitcher />
       <DarkModeSwitch />
       <NavMenuButton />
     </header>
