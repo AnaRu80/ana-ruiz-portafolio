@@ -5,3 +5,7 @@
 body {
 	margin: 0;
 }
+
+body {
+	@apply dark:bg-black dark:text-white;
+}
