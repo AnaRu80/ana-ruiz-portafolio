@@ -1,5 +1,7 @@
 {
 	"home": {
+		"homeTitle": "Hola",
+		"homeName": "Soy Ana",
 		"homeIntro": "¡Bienvenido a mi mundo digital! Soy una desarrolladora con pasión por crear experiencias interactivas usando JS frameworks y Node. Desde codificar elegantes interfaces hasta crear maravillas móviles, me dedico a convertir ideas en realidad."
 	},
 	"aboutMeTitle": "Sobre mí",
@@ -11,5 +13,9 @@
 	"footer": {
 		"footerTitle": "TRABAJEMOS<br/>JUNTOS",
 		"footerContent": "Hecho con ❤ <br/>por Ana Ruiz"
+	},
+	"skills": {
+		"skillsTitle": "Habilidades Profesionales",
+		"toolsTitle": "Herramientas y Tecnologías"
 	}
 }
