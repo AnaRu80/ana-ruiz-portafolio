@@ -5,12 +5,12 @@ export function ContactFeature() {
   const { t } = useTranslation();
 
   return (
-    <div className=" px-4 ">
-      <Text size='3xl' fontWeight='bold' text={t('contact.contactTitle')} />
-      <Text size='lg' classNameText='mt-5 text-justify' >
+    <div className=" px-4 text-center ">
+      <Text size='3xl' isTitle fontWeight='bold' text={t('contact.contactTitle')} />
+      <Text size='lg' classNameText='mt-5 ' >
         <Trans>  {t('contact.contactContent')} </Trans>
       </Text>
-      <Socials className="mt-5 laptop:mt-5" />
+      <Socials />
 
 
     </div>

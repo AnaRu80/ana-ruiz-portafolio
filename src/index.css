@@ -4,11 +4,11 @@
 @import 'tailwindcss/utilities';
 body {
 	margin: 0;
-}
-
-body {
+	padding: 0;
+	overflow-x: hidden;
 	@apply dark:bg-black dark:text-white;
 }
-.class {
-	white-space: pre-line;
+.container {
+	max-width: 100%;
+	overflow: hidden;
 }

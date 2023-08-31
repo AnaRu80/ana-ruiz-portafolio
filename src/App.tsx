@@ -1,8 +1,10 @@
 import Navigation from './Navigation';
-
+import { ThemeProvider } from './context/ThemeContext';
 function App() {
 	return (
-		<Navigation />
+		<ThemeProvider>
+			<Navigation />
+		</ThemeProvider>
 	);
 }
 
