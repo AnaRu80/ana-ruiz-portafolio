@@ -8,7 +8,7 @@ export const FooterFeature = ({ }) => {
 
   return (
     <>
-      <footer className="bg-gradient-to-t from-pink-500 to-transparent py-6 px-6">
+      <footer className="bg-gradient-to-t dark:from-gray-600 from-gray-400 via-transparent to-transparent py-6 px-6">
         <div className="mt-10 flex flex-row justify-between items-center ">
           <Text size="6x" fontWeight='bold' classNameText='text-2xl'>
             <Trans>  {t('footer.footerTitle')} </Trans>

@@ -1,4 +1,4 @@
-import WomanDevelop from "../assets/svg/woman.svg"
+import WomanDevelop from "../assets/svg/woman-coding-standing.svg"
 import { useTranslation, Trans } from 'react-i18next';
 import { Text } from "../components"
 export function AboutPage() {
