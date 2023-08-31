@@ -1,5 +1,7 @@
 {
 	"home": {
+		"homeTitle": "Hello",
+		"homeName": "I'm Ana",
 		"homeIntro": "Welcome to my digital world! I'm a developer with a passion for crafting interactive experiences using JS frameworks and Node. From coding elegant interfaces to creating mobile marvels, I'm dedicated to turning ideas into reality."
 	},
 	"aboutMeTitle": "About Me",
@@ -11,5 +13,9 @@
 	"footer": {
 		"footerTitle": "LET'S WORK<br/>TOGETHER",
 		"footerContent": "Made With ❤ <br/>by Ana Ruiz"
+	},
+	"skills": {
+		"skillsTitle": "Professional Skills",
+		"toolsTitle": "Tools & Technologies"
 	}
 }

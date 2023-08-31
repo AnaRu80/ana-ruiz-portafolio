@@ -1,11 +1,10 @@
-
-import data from "../data/portfolio.json";
+import { proyectsData } from '../data';
 import { Card } from '../components/Card';
 
 export function ProjectsPage() {
   return (
-    <div className="mt-5 laptop:mt-10 grid grid-cols-2 md:grid-cols-2 gap-4">
-      {data.projects.map((project) => (
+    <div className='mt-5 laptop:mt-10 grid grid-cols-2 md:grid-cols-2 gap-4'>
+      {proyectsData.map(project => (
         <Card
           key={project.id}
           img={project.imageSrc}
@@ -15,5 +14,5 @@ export function ProjectsPage() {
         />
       ))}
     </div>
-  )
+  );
 }
