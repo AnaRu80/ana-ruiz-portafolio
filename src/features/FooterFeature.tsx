@@ -19,7 +19,7 @@ export const FooterFeature = ({ }) => {
             <AiOutlineLinkedin className='text-3xl' />
           </div>
 
-          <Text size="sm" fontWeight='bold'>
+          <Text isSmall fontWeight='light'>
             <Trans>  {t('footer.footerContent')} </Trans>
           </Text>
         </div>

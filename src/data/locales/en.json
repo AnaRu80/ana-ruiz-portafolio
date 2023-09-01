@@ -17,5 +17,27 @@
 	"skills": {
 		"skillsTitle": "Professional Skills",
 		"toolsTitle": "Tools & Technologies"
+	},
+	"projects": {
+		"projectsTitle": "Projects",
+		"projectsContent": "Discover a diverse array of intriguing projects that I've been involved in, either through collaboration or independent creation.",
+		"plastiq": {
+			"projectDescription": "Seamlessly manage, track, and unblock bills from anywhere. Keep your business operations smooth even on the go."
+		},
+		"eqelonWeb": {
+			"projectDescription": "A dynamic real estate investment firm diving into ownership, development, and management of hotels and multifamily properties."
+		},
+		"eqelonApp": {
+			"projectDescription": "Unleash new investment horizons with easy access to details, funds reports, and exploratory opportunities."
+		},
+		"globant": {
+			"projectDescription": "Your gateway to a world of talent. Join our vibrant community through our recruitment site."
+		},
+		"taskManager": {
+			"projectDescription": "Tackle your tasks with ease. Coordinate your to-dos, and priorities all in one organized hub."
+		},
+		"weatherWeb": {
+			"projectDescription": "Stay ahead of the forecast. Get real-time weather updates and insights for your city and beyond."
+		}
 	}
 }

@@ -15,7 +15,8 @@ export function AboutPage() {
           </Text>
         </div>
         <div className='flex justify-center items-center sm:w-1/2'>
-          <img src={WomanDevelop} alt='Woman developing' />
+          <img src={WomanDevelop} alt='Woman developing' loading="lazy"
+          />
         </div>
       </div>
       <SkillsFeature />

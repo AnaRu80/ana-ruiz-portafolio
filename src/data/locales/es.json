@@ -17,5 +17,27 @@
 	"skills": {
 		"skillsTitle": "Habilidades Profesionales",
 		"toolsTitle": "Herramientas y Tecnologías"
+	},
+	"projects": {
+		"projectsTitle": "Proyectos",
+		"projectsContent": "Descubre una variedad diversa de proyectos interesantes en los que he participado, ya sea a través de colaboración o creación independiente.",
+		"plastiq": {
+			"projectDescription": "Administra, sigue y desbloquea facturas de manera fluida desde cualquier lugar. Mantén en marcha tus operaciones comerciales incluso en movimiento."
+		},
+		"eqelonWeb": {
+			"projectDescription": "Una firma dinámica de inversión inmobiliaria que se adentra en la propiedad, el desarrollo y la gestión de hoteles y propiedades multifamiliares."
+		},
+		"eqelonApp": {
+			"projectDescription": "Libera nuevos horizontes de inversión con fácil acceso a detalles, informes de fondos y oportunidades exploratorias."
+		},
+		"globant": {
+			"projectDescription": "Tu puerta de entrada a un mundo de talento. Únete a nuestra comunidad vibrante a través de nuestro sitio de reclutamiento."
+		},
+		"taskManager": {
+			"projectDescription": "Aborda tus tareas con facilidad. Coordina tus pendientes y prioridades, todo en un único centro organizado."
+		},
+		"weatherWeb": {
+			"projectDescription": "Mantente a la vanguardia del pronóstico. Obtén actualizaciones e información meteorológica en tiempo real de tu ciudad y más allá."
+		}
 	}
 }

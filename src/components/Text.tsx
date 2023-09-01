@@ -1,4 +1,4 @@
-type TypeText = 'default' | 'neutral' | 'default-inverse';
+type TypeText = 'default' | 'neutral' | 'yellow' | 'default-inverse';
 interface TextProps {
   size?: string;
   color?: string;
@@ -8,6 +8,9 @@ interface TextProps {
   type?: TypeText;
   children?: React.ReactNode;
   isTitle?: boolean;
+  isCaption?: boolean;
+  isSmall?: boolean;
+  isCentered?: boolean;
 }
 export const Text = ({
   size,
@@ -17,20 +20,29 @@ export const Text = ({
   type = 'default',
   children,
   isTitle,
+  isCaption,
+  isSmall,
+  isCentered
 }: TextProps) => {
-  const defaultText = 'align-center self-center';
-  const isTitleSize = isTitle
+  const defaultText = isCentered ? 'align-center self-center' : "";
+  const titleSize = isTitle
     ? 'text-3xl md:text-4xl lg:text-5xl'
-    : 'md:text-xl lg:text-2xl';
+    : isCaption ? 'text-base md:text-lg lg:text-xl' :
+      isSmall ? "text-xs md:text-sm lg:text-base " :
+        'text-lg md:text-xl lg:text-2xl';
   const textSize = size ? `text-${size}` : '';
   const textType =
     type === 'default'
       ? `text-black dark:text-white`
-      : `text-neutral-400 dark:text-neutral-400`;
+      :
+      type === 'yellow' ?
+        `text-yellow-400 dark:text-yellow-400` :
+        `text-neutral-400 dark:text-neutral-400`;
+
   const textFontWeight = fontWeight ? `font-${fontWeight}` : '';
   const classNameStyle = classNameText ? classNameText : '';
 
-  const combinedClasses = `${defaultText} ${textSize} ${textFontWeight} ${textType} ${isTitleSize} ${classNameStyle}`;
+  const combinedClasses = `${defaultText} ${textSize} ${textFontWeight} ${textType} ${titleSize} ${classNameStyle}`;
 
   return <p className={combinedClasses}>{children || text}</p>;
 };

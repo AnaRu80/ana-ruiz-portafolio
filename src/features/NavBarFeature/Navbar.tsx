@@ -11,6 +11,7 @@ export const NavBar: React.FC = () => {
           src={AIcon}
           alt="logo"
           className="h-10 w-10 sm:h-12 sm:w-12"
+          loading="lazy"
         />
 
       </a>

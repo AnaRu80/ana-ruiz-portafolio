@@ -12,10 +12,16 @@ export const LanguageSwitcher = () => {
     <div>
       <img src={AmericanFlag} alt="American Flag"
         onClick={() => changeLanguage('en')}
-        className='w-12' />
+        className='w-12'
+        loading="lazy"
+
+      />
       <img src={MexicanFlag} alt="Mexican Flag"
         onClick={() => changeLanguage('es')}
-        className='w-12 ' />
+        className='w-12 '
+        loading="lazy"
+
+      />
 
     </div>
   );
