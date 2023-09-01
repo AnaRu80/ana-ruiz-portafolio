@@ -23,7 +23,6 @@ export function HomePage() {
           />
           <Text
             size='xl'
-            fontWeight='bold'
             text={t('home.homeIntro')}
             classNameText=' lg:leading-10 '
           />
@@ -33,6 +32,7 @@ export function HomePage() {
             src={isDarkTheme ? WomanCodingWhite : WomanCodingDark}
             alt='Woman developing'
             className='w-2/4 sm:w-auto -mt-3 sm:mt-0'
+            loading="lazy"
           />
         </div>
       </div>

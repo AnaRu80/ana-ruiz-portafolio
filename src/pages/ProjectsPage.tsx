@@ -1,18 +1,37 @@
-import { proyectsData } from '../data';
+import { projectsData } from '../data';
 import { Card } from '../components/Card';
+import { useTranslation } from 'react-i18next';
+import { Text } from '../components';
+import { projectDataInterface } from '../data/interfaces';
 
 export function ProjectsPage() {
+  const { t } = useTranslation();
+
   return (
-    <div className='mt-5 laptop:mt-10 grid grid-cols-2 md:grid-cols-2 gap-4'>
-      {proyectsData.map(project => (
-        <Card
-          key={project.id}
-          img={project.imageSrc}
-          name={project.title}
-          description={project.description}
-          onClick={() => window.open(project.url)}
+    <div>
+      <div className='px-6 justify-center text-justify'>
+        <Text
+          isTitle
+          isCentered
+          text={t('projects.projectsTitle')}
+          classNameText='mb-2'
         />
-      ))}
+        <Text text={t('projects.projectsContent')} />
+      </div>
+
+      <div className='mt-5 laptop:mt-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-4'>
+        {projectsData.map((project: projectDataInterface) => (
+          <Card
+            key={project.id}
+            img={project.img}
+            title={project.title}
+            description={t(`projects.${project.id}.projectDescription`)}
+            framework={project.framework}
+            onClick={() => window.open(project.url)}
+            ownership={project.ownership}
+          />
+        ))}
+      </div>
     </div>
   );
 }
