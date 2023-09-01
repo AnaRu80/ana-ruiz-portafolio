@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 export const Button = ({ type = 'default', onClick, text }: ButtonProps) => {
-  let buttonClasses = 'rounded-full  w-max  bg-gradient-to-r from-yellow-300 via-yellow-300 to-yellow-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-300 font-medium  text-sm px-5 py-2.5 text-center mr-2 mb-2 ';
+  let buttonClasses = ' w-max rounded-md  bg-gradient-to-r from-yellow-300 via-yellow-300 to-yellow-400 hover:scale-105  focus:ring-0 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-300 font-medium  text-sm px-5 py-2.5 text-center mr-2 mb-2 ';
 
   if (type === 'default') {
     buttonClasses += 'text-black ';
