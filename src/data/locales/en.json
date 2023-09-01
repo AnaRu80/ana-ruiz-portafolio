@@ -39,5 +39,8 @@
 		"weatherWeb": {
 			"projectDescription": "Stay ahead of the forecast. Get real-time weather updates and insights for your city and beyond."
 		}
+	},
+	"resume": {
+		"download": "Download Resume"
 	}
 }
