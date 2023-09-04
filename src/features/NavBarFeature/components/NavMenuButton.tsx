@@ -1,9 +1,10 @@
 import { useMenuToggle } from '../hooks';
 import { CgMenuGridR, CgClose } from 'react-icons/cg'
 import { NavLinkCustom } from '.';
-
+import { useTranslation } from 'react-i18next';
 export function NavMenuButton() {
   const { isMobileMenuOpen, closeMobileMenu, toggleMobileMenu } = useMenuToggle();
+  const { t } = useTranslation();
   return (
     <div>
       <button
@@ -32,10 +33,11 @@ export function NavMenuButton() {
 						${isMobileMenuOpen ? 'absolute' : 'hidden'}
 						right-0 z-20 mt-2 w-full sm:w-6/12 origin-top-right rounded-md text-white  bg-yellow-300 shadow-lg `}
       >
-        <NavLinkCustom to="/">Home</NavLinkCustom>
-        <NavLinkCustom to="/about">About</NavLinkCustom>
-        <NavLinkCustom to="/projects">Project</NavLinkCustom>
-        <NavLinkCustom to="/resume">Resume</NavLinkCustom>
+        <NavLinkCustom to="/">{t('nav.home')}</NavLinkCustom>
+        <NavLinkCustom to="/about">{t('nav.aboutMe')}</NavLinkCustom>
+        <NavLinkCustom to="/projects">{t('nav.projects')}</NavLinkCustom>
+        <NavLinkCustom to="/resume">{t('nav.resume')}</NavLinkCustom>
+
       </div>
     </div >
   );

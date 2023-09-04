@@ -19,7 +19,7 @@ export function ProjectsPage() {
         <Text text={t('projects.projectsContent')} />
       </div>
 
-      <div className='mt-5 laptop:mt-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <div className='mt-5 laptop:mt-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-4 cursor-pointer'>
         {projectsData.map((project: projectDataInterface) => (
           <Card
             key={project.id}

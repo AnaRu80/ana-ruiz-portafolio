@@ -1,4 +1,10 @@
 {
+	"nav": {
+		"home": "Inicio",
+		"aboutMe": "Sobre mí",
+		"projects": "Proyectos",
+		"resume": "CV"
+	},
 	"home": {
 		"homeTitle": "Hola",
 		"homeName": "Soy Ana",
@@ -42,5 +48,8 @@
 	},
 	"resume": {
 		"download": "Descargar CV"
-	}
+	},
+	"notFound": "Página no encontrada",
+	"contentNotFound": "Lo sentimos, la página que estás buscando no existe.",
+	"goHomeButton": "Ir a Inicio"
 }

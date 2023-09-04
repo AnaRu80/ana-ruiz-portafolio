@@ -46,14 +46,16 @@ export function ResumePage() {
         <div className='realtive '>
           {[1, 2].map((_, index) => (
             <div
-              className={`duration-700  ease-in-out transition-opacity
+              className={`duration-700  ease-in-out transition-opacity  
             ${currentSlide === index ? 'visible' : 'hidden'}`}
             >
               <TransformWrapper>
                 <Controls />
-                <TransformComponent>
-                  <img src={index == 0 ? CVImgPart1 : CVImgPart2} width='100%' />
-                </TransformComponent>
+                <div className='shadow-2xl cursor-pointer'>
+                  <TransformComponent>
+                    <img src={index === 0 ? CVImgPart1 : CVImgPart2} width='100%' className='rounded-lg ' />
+                  </TransformComponent>
+                </div>
               </TransformWrapper>
             </div>
           ))}
