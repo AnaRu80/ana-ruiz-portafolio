@@ -1,4 +1,10 @@
 {
+	"nav": {
+		"home": "Home",
+		"aboutMe": "About Me",
+		"projects": "Projects",
+		"resume": "Resume"
+	},
 	"home": {
 		"homeTitle": "Hello",
 		"homeName": "I'm Ana",
@@ -42,5 +48,8 @@
 	},
 	"resume": {
 		"download": "Download Resume"
-	}
+	},
+	"notFound": "404 - Page Not Found",
+	"contentNotFound": "Sorry, the page you are looking for does not exist.",
+	"goHome": "Go Home"
 }
