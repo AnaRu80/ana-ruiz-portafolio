@@ -1,23 +1,8 @@
-import React, { useState, useEffect } from 'react';
 import { Text } from '../';
+import { useDurationText } from './useDurationText';
 
 export const TypingAnimationText = ({ text }: any) => {
-  const [typedText, setTypedText] = useState('');
-
-  useEffect(() => {
-    let currentIndex = 0;
-    const interval = setInterval(() => {
-      setTypedText(text.slice(0, currentIndex + 1));
-      currentIndex++;
-
-      if (currentIndex === text.length) {
-        clearInterval(interval);
-      }
-    }, 100);
-
-    return () => clearInterval(interval);
-  }, [text]);
-
+  const { typedText } = useDurationText(text);
   return (
     <Text
       size='xl'

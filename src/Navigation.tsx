@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 import {
   AboutPage,
@@ -8,21 +8,22 @@ import {
   ResumePage,
 } from './pages';
 import { Layout } from './components';
+import { AnimatePresence } from 'framer-motion';
 const Navigation = () => {
-
+  const location = useLocation();
   return (
 
-    <Router>
-      <Layout>
-        <Routes>
+    <Layout>
+      <AnimatePresence mode='wait'>
+        <Routes location={location} key={location.pathname}>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/resume' element={<ResumePage />} />
           <Route path='/projects' element={<ProjectsPage />} />
-          <Route path='*' element={<NotFoundPage />} />{' '}
+          <Route path='*' element={<NotFoundPage />} />
         </Routes>
-      </Layout>
-    </Router>
+      </AnimatePresence>
+    </Layout>
 
 
   );

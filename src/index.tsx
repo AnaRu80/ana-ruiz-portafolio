@@ -6,6 +6,7 @@ import './index.css';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import translations from './data/locales';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const i18nConfig: any = {
 	resources: translations,
@@ -23,7 +24,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
 	<React.StrictMode>
-		<App />
+		<Router>
+			<App />
+		</Router>
 	</React.StrictMode>
 );
 
