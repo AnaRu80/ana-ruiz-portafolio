@@ -14,6 +14,7 @@ export function useChangeLanguage(translations: any) {
 		}, timeForLanguage);
 
 		return () => clearInterval(interval);
+		// eslint-disable-next-line
 	}, [currentLanguageIndex]);
 
 	return { currentLanguage, languages };

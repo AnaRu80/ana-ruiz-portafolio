@@ -4,7 +4,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import { Text } from "../components"
 import { NavLink } from 'react-router-dom';
 
-export const FooterFeature = ({ }) => {
+export const FooterFeature = () => {
   const { t } = useTranslation();
 
   return (
