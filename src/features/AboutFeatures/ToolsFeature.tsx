@@ -13,7 +13,9 @@ export function ToolsFeature() {
         {toolsData.map((tool: toolsDataInterface) => (
           <div className='flex items-center px-2 py-2' key={tool.id}>
             <Text text={tool.name} classNameText='mr-1' />
-            {tool.icon}
+            <div className='animation animate-bounce'>
+              {tool.icon}
+            </div>
           </div>
         ))}
       </div>

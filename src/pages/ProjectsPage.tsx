@@ -1,14 +1,14 @@
 import { projectsData } from '../data';
 import { Card } from '../components/Card';
 import { useTranslation } from 'react-i18next';
-import { Text } from '../components';
+import { Text, TransitionPage } from '../components';
 import { projectDataInterface } from '../data/interfaces';
 
 export function ProjectsPage() {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <TransitionPage>
       <div className='px-6 justify-center text-justify'>
         <Text
           isTitle
@@ -32,6 +32,6 @@ export function ProjectsPage() {
           />
         ))}
       </div>
-    </div>
+    </TransitionPage>
   );
 }
