@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react";
-import { useInView, motion, useAnimation } from "framer-motion";
+import { useRef } from "react";
+import { useInView, motion } from "framer-motion";
 
 const sectionVariants = {
   visible: {
@@ -13,14 +13,6 @@ const sectionVariants = {
 function Section({ children }: any) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const controls = useAnimation();
-
-  useEffect(() => {
-
-    if (isInView) {
-      controls.start("visible");
-    }
-  }, [controls, isInView]);
 
   return (
     <motion.div

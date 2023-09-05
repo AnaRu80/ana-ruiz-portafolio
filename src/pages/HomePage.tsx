@@ -1,10 +1,11 @@
-import { Text, TypingAnimationGroup, TransitionPage } from '../components';
 import { useTranslation } from 'react-i18next';
+import { Text, TypingAnimationGroup, TransitionPage } from '../components';
 import { ContactFeature } from '../features';
 import WomanCodingWhite from '../assets/svg/woman-coding-sitting-white.svg';
 import WomanCodingDark from '../assets/svg/woman-coding-sitting-dark.svg';
 import { useTheme } from '../context/ThemeContext';
 import { greetingTextData } from '../data';
+
 export function HomePage() {
   const { t } = useTranslation();
   const { isDarkTheme } = useTheme();

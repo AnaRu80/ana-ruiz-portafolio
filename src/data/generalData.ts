@@ -13,12 +13,12 @@ export const greetingTextData = {
 export const socialNetworkData = [
 	{
 		id: '1',
-		link: '',
+		link: 'https://github.com/AnaRu80',
 		title: 'Github',
 	},
 	{
 		id: '2',
-		link: '',
+		link: 'https://www.linkedin.com/in/anaruiz93/',
 		title: 'LinkedIn',
 	},
 ];

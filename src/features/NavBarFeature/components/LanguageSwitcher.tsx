@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import USAFlag from '../assets/svg/usa-flag.svg';
-import SpainFlag from '../assets/svg/spain-flag.svg';
+import USAFlag from '../../../assets/svg/usa-flag.svg';
+import SpainFlag from '../../../assets/svg/spain-flag.svg';
 import { FaChevronDown } from 'react-icons/fa';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
