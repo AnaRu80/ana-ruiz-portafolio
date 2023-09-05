@@ -60,12 +60,12 @@ export function ResumePage() {
         {[1, 2].map((_, index) => (
           <button
             type='button'
-            className={`absolute top-0 ${index == 0 ? 'left-0' : 'right-0'
+            className={`absolute top-0 ${index === 0 ? 'left-0' : 'right-0'
               }  z-30 flex items-center top-2/4 justify-center px-4 cursor-pointer group focus:outline-none`}
             onClick={index == 0 ? handlePrevSlide : handleNextSlide}
           >
             <span className='inline-flex items-center justify-center w-10 h-10 rounded-full bg-yellow-500/70  group-hover:bg-yellow-500/50 group-focus:ring-1 group-focus:ring-yellow-500  group-focus:outline-none text-white'>
-              {index == 0 ? (
+              {index === 0 ? (
                 <FaChevronLeft />
               ) : (
                 <FaChevronRight />
