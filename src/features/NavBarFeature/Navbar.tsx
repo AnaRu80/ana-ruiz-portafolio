@@ -1,6 +1,6 @@
 import { DarkModeSwitch, NavMenuButton } from './components';
 import AIcon from '../../assets/svg/a-icon.svg';
-import { LanguageSwitcher } from '../../components';
+import { LanguageSwitcher } from './components';
 import { NavLink } from 'react-router-dom';
 export const NavBar: React.FC = () => {
 

@@ -1,4 +1,7 @@
+import React from 'react';
+
 type TypeText = 'default' | 'neutral' | 'yellow' | 'default-inverse';
+
 interface TextProps {
   size?: string;
   color?: string;
@@ -12,6 +15,7 @@ interface TextProps {
   isSmall?: boolean;
   isCentered?: boolean;
 }
+
 export const Text = ({
   size,
   fontWeight = 'normal',
@@ -22,27 +26,28 @@ export const Text = ({
   isTitle,
   isCaption,
   isSmall,
-  isCentered
+  isCentered,
 }: TextProps) => {
-  const defaultText = isCentered ? 'align-center self-center' : "";
-  const titleSize = isTitle
-    ? 'text-3xl md:text-4xl lg:text-5xl'
-    : isCaption ? 'text-base md:text-lg lg:text-xl' :
-      isSmall ? "text-xs md:text-sm lg:text-base " :
-        'text-lg md:text-xl lg:text-2xl';
-  const textSize = size ? `text-${size}` : '';
-  const textType =
+  const classNames = [
+    isCentered ? 'align-center self-center' : '',
+    isTitle
+      ? 'text-3xl md:text-4xl lg:text-5xl'
+      : isCaption
+        ? 'text-base md:text-lg lg:text-xl'
+        : isSmall
+          ? 'text-xs md:text-sm lg:text-base'
+          : 'text-lg md:text-xl lg:text-2xl',
+    size ? `text-${size}` : '',
+    fontWeight ? `font-${fontWeight}` : '',
     type === 'default'
-      ? `text-black dark:text-white`
-      :
-      type === 'yellow' ?
-        `text-yellow-400 dark:text-yellow-400` :
-        `text-neutral-400 dark:text-neutral-400`;
+      ? 'text-black dark:text-white'
+      : type === 'yellow'
+        ? 'text-yellow-400 dark:text-yellow-400'
+        : 'text-neutral-400 dark:text-neutral-400',
+    classNameText || '',
+  ];
 
-  const textFontWeight = fontWeight ? `font-${fontWeight}` : '';
-  const classNameStyle = classNameText ? classNameText : '';
-
-  const combinedClasses = `${defaultText} ${textSize} ${textFontWeight} ${textType} ${titleSize} ${classNameStyle}`;
+  const combinedClasses = classNames.filter((className) => className !== '').join(' ');
 
   return <p className={combinedClasses}>{children || text}</p>;
 };

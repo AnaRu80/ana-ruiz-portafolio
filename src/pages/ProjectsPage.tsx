@@ -1,6 +1,6 @@
+import { useTranslation } from 'react-i18next';
 import { projectsData } from '../data';
 import { Card } from '../components/Card';
-import { useTranslation } from 'react-i18next';
 import { Text, TransitionPage } from '../components';
 import { projectDataInterface } from '../data/interfaces';
 

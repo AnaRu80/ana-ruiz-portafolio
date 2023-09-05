@@ -1,7 +1,8 @@
+import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 import { Button, Text, TransitionPage } from '../components';
 import AlienCow from '../assets/svg/alien-cow.svg';
-import { useTranslation } from 'react-i18next';
-import { NavLink } from 'react-router-dom';
 
 export const NotFoundPage = () => {
 	const { t } = useTranslation();

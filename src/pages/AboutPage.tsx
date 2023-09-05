@@ -1,7 +1,8 @@
-import WomanDevelop from '../assets/svg/woman-coding-standing.svg';
 import { useTranslation, Trans } from 'react-i18next';
+import WomanDevelop from '../assets/svg/woman-coding-standing.svg';
 import { Text, TransitionPage } from '../components';
 import { SkillsFeature, ToolsFeature } from '../features';
+
 export function AboutPage() {
   const { t } = useTranslation();
 
