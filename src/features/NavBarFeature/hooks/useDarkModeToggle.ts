@@ -15,12 +15,17 @@ export const useDarkModeToggle = () => {
 			setTheme(true);
 		}
 	};
-	useEffect(() => {
+	const handleTheme = () => {
 		const theme = localStorage.getItem('theme');
 		if (theme === 'dark') {
 			setTheme(true);
 			document.documentElement.classList.add('dark');
 		}
+	};
+
+	useEffect(() => {
+		handleTheme();
+		// eslint-disable-next-line
 	}, []);
 
 	return { isDarkTheme, toggleDarkMode };
