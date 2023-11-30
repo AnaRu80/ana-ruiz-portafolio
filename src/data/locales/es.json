@@ -44,6 +44,9 @@
 		},
 		"weatherWeb": {
 			"projectDescription": "Mantente a la vanguardia del pronóstico. Obtén actualizaciones e información meteorológica en tiempo real de tu ciudad y más allá."
+		},
+		"matlab": {
+			"projectDescription": "Página en progreso..."
 		}
 	},
 	"resume": {
