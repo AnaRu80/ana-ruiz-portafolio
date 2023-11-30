@@ -4,6 +4,7 @@ import EqelonWebImg from '../assets/images/eqelon-web.png';
 import GlobantImg from '../assets/images/globant-web.png';
 import TaskManagerImg from '../assets/images/task-manager-web.png';
 import WeatherImg from '../assets/images/weather-web.png';
+import MatlabImg from '../assets/images/matlab.png';
 import { projectDataInterface } from './interfaces';
 
 export const projectsData: projectDataInterface[] = [
@@ -63,6 +64,15 @@ export const projectsData: projectDataInterface[] = [
 		title: 'Weather App',
 		description: 'Check the weather in your city',
 		url: 'https://bright-cactus-4e37f6.netlify.app/',
+		ownership: 'own',
+	},
+	{
+		framework: 'Matlab | Simulink | C++',
+		id: 'matlab',
+		img: MatlabImg,
+		title: 'Matlab Projects',
+		description: 'Page in progress...',
+		url: '#',
 		ownership: 'own',
 	},
 ];

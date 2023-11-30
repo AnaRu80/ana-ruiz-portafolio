@@ -1,7 +1,7 @@
 import { toolsDataInterface } from './interfaces';
 import { BiLogoVisualStudio, BiLogoGit, BiLogoChrome } from 'react-icons/bi';
 import { FaNpm, FaJira, FaTrello, FaSlack, FaFigma, FaBootstrap, FaAndroid } from 'react-icons/fa';
-import { SiPostman, SiNotion, SiMaterialdesign, SiWebpack, SiEslint, SiPrettier, SiFirebase, SiNetlify, SiXcode, SiHeroku } from 'react-icons/si';
+import { SiPostman, SiNotion, SiMaterialdesign, SiWebpack, SiEslint, SiPrettier, SiFirebase, SiNetlify, SiXcode, SiHeroku, SiCircuitverse } from 'react-icons/si';
 import { BsGithub } from 'react-icons/bs';
 
 export const toolsData: toolsDataInterface[] = [
@@ -13,6 +13,7 @@ export const toolsData: toolsDataInterface[] = [
 	{ id: 9, name: 'Postman', icon: <SiPostman /> },
 	{ id: 10, name: 'GitHub', icon: <BsGithub /> },
 	{ id: 12, name: 'JIRA', icon: <FaJira /> },
+	{ id: 12, name: 'MATLAB', icon: <SiCircuitverse /> },
 	{ id: 13, name: 'Trello', icon: <FaTrello /> },
 	{ id: 14, name: 'Slack', icon: <FaSlack /> },
 	{ id: 15, name: 'Notion', icon: <SiNotion /> },
