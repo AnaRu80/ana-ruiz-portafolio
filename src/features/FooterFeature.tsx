@@ -18,7 +18,7 @@ export const FooterFeature = () => {
           <NavLink target="_blank" to={"https://github.com/AnaRu80"}>
             <AiOutlineGithub className='text-3xl' />
           </NavLink>
-          <NavLink target="_blank" to={"https://www.linkedin.com/in/anaruiz93/"}>
+          <NavLink target="_blank" to={"https://www.linkedin.com/in/anadeveloper/"}>
 
             <AiOutlineLinkedin className='text-3xl' />
           </NavLink>

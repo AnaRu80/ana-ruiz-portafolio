@@ -1,0 +1,58 @@
+{
+	"nav": {
+		"home": "Home",
+		"aboutMe": "À Propos de Moi",
+		"projects": "Projets",
+		"resume": "CV"
+	},
+	"home": {
+		"homeTitle": "Bonjour",
+		"homeName": "Je suis Anne",
+		"homeIntro": "Bienvenue dans mon monde digital ! Je suis développeuse basée à Montréal, Canada, avec une passion pour la création d'expériences interactives utilisant des frameworks JS et Node, tout en élargissant mon expertise pour inclure MATLAB et encore plus de possibilités. De la codification d'interfaces élégantes à la création de merveilles mobiles, je suis dédiée à transformer des idées en réalité."
+	},
+	"aboutMeTitle": "À Propos de Moi",
+	"aboutMeContent": "Je suis une ancienne ingénieure électronique qui a trouvé sa véritable passion dans le développement. Avec plus de cinq ans d'expérience, je suis passée de la création d'interfaces utilisateur en React à la construction d'applications plus vastes utilisant Node.js et maintenant en incorporant MATLAB. <br/><br/> Mon parcours m'a également amenée à maîtriser React Native, me permettant de créer des applications mobiles captivantes. Au-delà de l'écran, vous me trouverez absorbée par des séries, explorant de nouveaux endroits ou dansant la salsa. Collaborons et transformons des idées en réalité !",
+	"contact": {
+		"contactTitle": "Contactez-moi",
+		"contactContent": "Vous avez une question, une idée ou simplement envie de dire bonjour ? N'hésitez pas à m'envoyer un message, et je vous répondrai dès que possible !"
+	},
+	"footer": {
+		"footerTitle": "TRAVAILLONS ENSEMBLE",
+		"footerContent": "Fait avec ❤ <br/>par Anne Ruiz"
+	},
+	"skills": {
+		"skillsTitle": "Compétences Professionnelles",
+		"toolsTitle": "Outils & Technologies"
+	},
+	"projects": {
+		"projectsTitle": "Projets",
+		"projectsContent": "Découvrez une variété de projets intéressants auxquels j'ai participé, soit par collaboration, soit par création indépendante.",
+		"plastiq": {
+			"projectDescription": "Gérez, suivez et débloquez les factures de n'importe où. Gardez vos opérations commerciales fluides même en déplacement."
+		},
+		"eqelonWeb": {
+			"projectDescription": "Une société dynamique d'investissement immobilier se lançant dans la propriété, le développement et la gestion d'hôtels et de biens multifamiliaux."
+		},
+		"eqelonApp": {
+			"projectDescription": "Libérez de nouveaux horizons d'investissement avec un accès facile aux détails, aux rapports de fonds et aux opportunités d'exploration."
+		},
+		"globant": {
+			"projectDescription": "Votre porte d'entrée vers un monde de talents. Rejoignez notre communauté dynamique via notre site de recrutement."
+		},
+		"taskManager": {
+			"projectDescription": "Affrontez vos tâches avec aisance. Coordonnez vos choses à faire et vos priorités dans un hub organisé."
+		},
+		"weatherWeb": {
+			"projectDescription": "Restez en avance sur les prévisions. Recevez des mises à jour météorologiques en temps réel et des informations pour votre ville et au-delà."
+		},
+		"matlab": {
+			"projectDescription": "Page en cours de réalisation..."
+		}
+	},
+	"resume": {
+		"download": "Télécharger le CV"
+	},
+	"notFound": "404 - Page Non Trouvée",
+	"contentNotFound": "Désolé, la page que vous recherchez n'existe pas.",
+	"goHome": "Retour à l'accueil"
+}
