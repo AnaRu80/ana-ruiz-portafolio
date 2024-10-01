@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import USAFlag from '../../../assets/svg/usa-flag.svg';
 import SpainFlag from '../../../assets/svg/spain-flag.svg';
+import QuebecFlag from '../../../assets/svg/quebec-flag.svg';
 import { FaChevronDown } from 'react-icons/fa';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 const languages = [
   { code: 'en', name: 'English', flag: USAFlag },
   { code: 'es', name: 'Spanish', flag: SpainFlag },
+  { code: 'fr', name: 'French', flag: QuebecFlag },
   // Add more languages as needed
 ];
 export const LanguageSwitcher = () => {

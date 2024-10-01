@@ -18,7 +18,7 @@ export const socialNetworkData = [
 	},
 	{
 		id: '2',
-		link: 'https://www.linkedin.com/in/anaruiz93/',
+		link: 'https://www.linkedin.com/in/anadeveloper',
 		title: 'LinkedIn',
 	},
 ];

@@ -19,28 +19,7 @@ export const projectsData: projectDataInterface[] = [
 		ownership: 'private',
 	},
 	{
-		framework: 'React Native | Redux | React Navigation',
-		id: 'eqelonApp',
-		img: EqelonImg,
-		title: 'ËQELON APP',
-		description:
-			'Explore new opportunities, have access to details of your investment, and fund´s reports.',
-		url: 'https://eqelon.com/application',
-		ownership: 'private',
-	},
-	{
-		framework: 'Vue | Vuex | Bootstrap-vue',
-		id: 'eqelonWeb',
-		img: EqelonWebImg,
-		title: 'ËQELON WEB',
-		description:
-			'Ëqelon is a real estate investment firm engaged in the ownership, acquisition, development, managment and disposition of hotels and multifamily properties',
-		url: 'https://eqelon.com/',
-		ownership: 'private',
-	},
-
-	{
-		framework: 'Vanilla JS | HTML | CSS',
+		framework: 'Next.js | Prisma | shadcn/ui',
 		id: 'globant',
 		img: GlobantImg,
 		title: 'Globant',
@@ -66,6 +45,27 @@ export const projectsData: projectDataInterface[] = [
 		url: 'https://bright-cactus-4e37f6.netlify.app/',
 		ownership: 'own',
 	},
+	{
+		framework: 'React Native | Redux | React Navigation',
+		id: 'eqelonApp',
+		img: EqelonImg,
+		title: 'ËQELON APP',
+		description:
+			'Explore new opportunities, have access to details of your investment, and fund´s reports.',
+		url: '#',
+		ownership: 'private',
+	},
+	{
+		framework: 'React | Redux',
+		id: 'eqelonWeb',
+		img: EqelonWebImg,
+		title: 'ËQELON WEB',
+		description:
+			'Ëqelon is a real estate investment firm engaged in the ownership, acquisition, development, managment and disposition of hotels and multifamily properties',
+		url: '#',
+		ownership: 'private',
+	},
+
 	{
 		framework: 'Matlab | Simulink | C++',
 		id: 'matlab',

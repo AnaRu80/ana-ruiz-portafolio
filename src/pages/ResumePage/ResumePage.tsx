@@ -1,6 +1,6 @@
-import CVImgPart1 from '../../assets/cv/Ana_Ruiz_Engineer_FrontEnd_1.png';
-import CVImgPart2 from '../../assets/cv/Ana_Ruiz_Engineer_FrontEnd_2.png';
-import CVFile from '../../assets/cv/Ana_Ruiz_Engineer_FrontEnd.pdf';
+import CVImgPart1 from '../../assets/cv/Software_developer_Anne_Ruiz_1.jpg';
+import CVImgPart2 from '../../assets/cv/Software_developer_Anne_Ruiz_2.jpg';
+import CVFile from '../../assets/cv/Software_developer_Anne_Ruiz.pdf';
 import { Button, TransitionPage, Text } from '../../components';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import {

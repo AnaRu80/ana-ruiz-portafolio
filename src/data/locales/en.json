@@ -7,8 +7,8 @@
 	},
 	"home": {
 		"homeTitle": "Hello",
-		"homeName": "I'm Ana",
-		"homeIntro": "Welcome to my digital world! I'm a developer with a passion for crafting interactive experiences using JS frameworks and Node, now extending my expertise to include MATLAB for even more possibilities. From coding elegant interfaces to creating mobile marvels, I'm dedicated to turning ideas into reality."
+		"homeName": "I'm Anne",
+		"homeIntro": "Welcome to my digital world! I'm a developer based in Montreal, Canada, with a passion for crafting interactive experiences using JS frameworks and Node, now extending my expertise to include MATLAB for even more possibilities. From coding elegant interfaces to creating mobile marvels, I'm dedicated to turning ideas into reality."
 	},
 	"aboutMeTitle": "About Me",
 	"aboutMeContent": "I am a former electronic engineer who found her true passion in development. With over five years of experience, I've gone from crafting user interfaces in React to building more extensive applications using Node.js and now incorporating MATLAB. <br/><br/> My journey also led me to master React Native, enabling me to create captivating mobile apps. Beyond the screen, you'll find me engrossed in series, exploring new places, or dancing salsa. Let's collaborate and turn ideas into reality!",
@@ -18,7 +18,7 @@
 	},
 	"footer": {
 		"footerTitle": "LET'S WORK<br/>TOGETHER",
-		"footerContent": "Made With ❤ <br/>by Ana Ruiz"
+		"footerContent": "Made With ❤ <br/>by Anne Ruiz"
 	},
 	"skills": {
 		"skillsTitle": "Professional Skills",
