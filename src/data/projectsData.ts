@@ -1,6 +1,5 @@
 import PlastiqImg from '../assets/images/plastiq-app.png';
 import EqelonImg from '../assets/images/eqelon-app.png';
-import EqelonWebImg from '../assets/images/eqelon-web.png';
 import GlobantImg from '../assets/images/globant-web.png';
 import TaskManagerImg from '../assets/images/task-manager-web.png';
 import WeatherImg from '../assets/images/weather-web.png';
@@ -49,7 +48,7 @@ export const projectsData: projectDataInterface[] = [
 		framework: 'Next.js | React | API',
 		id: 'pexelsWeb',
 		img: PexelsImg,
-		title: 'Video showing',
+		title: 'Pexels Video Player',
 		description:
 			'A responsive video streaming app built with Next.js and React. It features a video list and a detailed player page with custom controls. The app uses the Pexels API to fetch videos and is styled with SCSS and modern UI components.',
 		url: 'https://fabulous-tapioca-fd8fec.netlify.app/',
@@ -62,16 +61,6 @@ export const projectsData: projectDataInterface[] = [
 		title: 'ËQELON APP',
 		description:
 			'Explore new opportunities, have access to details of your investment, and fund´s reports.',
-		url: '#',
-		ownership: 'private',
-	},
-	{
-		framework: 'React | Redux',
-		id: 'eqelonWeb',
-		img: EqelonWebImg,
-		title: 'ËQELON WEB',
-		description:
-			'Ëqelon is a real estate investment firm engaged in the ownership, acquisition, development, managment and disposition of hotels and multifamily properties',
 		url: '#',
 		ownership: 'private',
 	},

@@ -28,22 +28,19 @@
 		"projectsTitle": "Projects",
 		"projectsContent": "Discover a diverse array of intriguing projects that I've been involved in, either through collaboration or independent creation.",
 		"plastiq": {
-			"projectDescription": "Seamlessly manage, track, and unblock bills from anywhere. Keep your business operations smooth even on the go."
-		},
-		"eqelonWeb": {
-			"projectDescription": "A dynamic real estate investment firm diving into ownership, development, and management of hotels and multifamily properties."
+			"projectDescription": "Developed a mobile app to help businesses seamlessly manage, track, and unblock bills on the go. Ensured smooth business operations with an intuitive interface and efficient navigation."
 		},
 		"eqelonApp": {
-			"projectDescription": "Unleash new investment horizons with easy access to details, funds reports, and exploratory opportunities."
+			"projectDescription": "Contributed to the development of a mobile app that provides users with easy access to investment details, fund reports, and new opportunities. Focused on creating a smooth and informative user experience."
 		},
 		"globant": {
-			"projectDescription": "Your gateway to a world of talent. Join our vibrant community through our recruitment site."
+			"projectDescription": "Collaborated on the migration and enhancement of Globant's recruitment platform, improving the candidate experience and streamlining the application process."
 		},
 		"taskManager": {
-			"projectDescription": "Tackle your tasks with ease. Coordinate your to-dos, and priorities all in one organized hub."
+			"projectDescription": "Created a task management app to help users organize their to-dos and priorities efficiently. Used Redux for state management and Material-UI for a clean, user-friendly interface."
 		},
 		"weatherWeb": {
-			"projectDescription": "Stay ahead of the forecast. Get real-time weather updates and insights for your city and beyond."
+			"projectDescription": "Built a weather application that provides real-time updates and detailed forecasts for any city. Integrated a public API and designed a responsive interface using TailwindCSS."
 		},
 		"pexelsWeb": {
 			"projectDescription": "A responsive video streaming app built with Next.js and React. It features a video list and a detailed player page with custom controls. The app uses the Pexels API to fetch videos and is styled with SCSS and modern UI components."

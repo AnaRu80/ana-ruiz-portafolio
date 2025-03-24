@@ -28,22 +28,19 @@
 		"projectsTitle": "Projets",
 		"projectsContent": "Découvrez une variété de projets intéressants auxquels j'ai participé, soit par collaboration, soit par création indépendante.",
 		"plastiq": {
-			"projectDescription": "Gérez, suivez et débloquez les factures de n'importe où. Gardez vos opérations commerciales fluides même en déplacement."
-		},
-		"eqelonWeb": {
-			"projectDescription": "Une société dynamique d'investissement immobilier se lançant dans la propriété, le développement et la gestion d'hôtels et de biens multifamiliaux."
+			"projectDescription": "Développement d'une application mobile permettant aux entreprises de gérer, suivre et débloquer facilement leurs factures à tout moment. J’ai veillé à un fonctionnement fluide grâce à une interface intuitive et une navigation efficace."
 		},
 		"eqelonApp": {
-			"projectDescription": "Libérez de nouveaux horizons d'investissement avec un accès facile aux détails, aux rapports de fonds et aux opportunités d'exploration."
+			"projectDescription": "J’ai contribué au développement d’une application mobile offrant un accès facile aux informations d’investissement, aux rapports de fonds et à de nouvelles opportunités. Je me suis concentré sur une expérience utilisateur fluide et enrichissante."
 		},
 		"globant": {
-			"projectDescription": "Votre porte d'entrée vers un monde de talents. Rejoignez notre communauté dynamique via notre site de recrutement."
+			"projectDescription": "J’ai participé à la migration et à l’amélioration de la plateforme de recrutement de Globant, en optimisant l’expérience des candidats et en simplifiant le processus de candidature"
 		},
 		"taskManager": {
-			"projectDescription": "Affrontez vos tâches avec aisance. Coordonnez vos choses à faire et vos priorités dans un hub organisé."
+			"projectDescription": "J’ai développé une application de gestion de tâches permettant aux utilisateurs d’organiser efficacement leurs tâches et priorités. Redux a été utilisé pour la gestion d’état et Material-UI pour une interface claire et intuitive."
 		},
 		"weatherWeb": {
-			"projectDescription": "Restez en avance sur les prévisions. Recevez des mises à jour météorologiques en temps réel et des informations pour votre ville et au-delà."
+			"projectDescription": "J’ai créé une application météo affichant des mises à jour en temps réel et des prévisions détaillées pour n’importe quelle ville. Intégration d’une API publique et conception d’une interface responsive avec TailwindCSS."
 		},
 		"pexelsWeb": {
 			"projectDescription": "Une application de streaming vidéo responsive développée avec Next.js et React. Elle propose une liste de vidéos et une page de lecteur avec des contrôles personnalisés. L’application utilise l’API de Pexels pour récupérer les vidéos et est stylisée avec SCSS et une interface moderne."
