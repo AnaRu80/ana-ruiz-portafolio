@@ -8,10 +8,10 @@
 	"home": {
 		"homeTitle": "Hola",
 		"homeName": "Soy Anne",
-		"homeIntro": "¡Bienvenido a mi mundo digital! Soy una desarrolladora con sede en Montreal, Canadá, con pasión por crear experiencias interactivas usando JS frameworks y Node. Desde codificar elegantes interfaces hasta crear maravillas móviles, me dedico a convertir ideas en realidad."
+		"homeIntro": "¡Bienvenidos a mi mundo digital! Soy desarrolladora web y móvil en Montreal con más de 5 años de experiencia. Me especializo en React, React Native y Node.js, creando aplicaciones modernas y centradas en el usuario. También tengo bases en Python y experiencia creando sitios con WordPress. Me encanta transformar ideas en experiencias digitales intuitivas. ¡Construyamos algo increíble juntos!"
 	},
 	"aboutMeTitle": "Sobre mí",
-	"aboutMeContent": "Era una ingeniera electrónica que encontró su verdadera pasión en el desarrollo. Con más de cinco años de experiencia, he pasado de diseñar interfaces de usuario en React a construir aplicaciones más extensas utilizando Node.js.<br/><br/>Mi viaje también me llevó a dominar React Native, lo que me permite crear aplicaciones móviles cautivadoras. Más allá de la pantalla, me encontrarás absorta en series, explorando nuevos lugares o bailando salsa. ¡Colaboremos y convirtamos ideas en realidad!",
+	"aboutMeContent": "Soy una exingeniera electrónica que descubrió su verdadera pasión en el desarrollo de software.<br/><br/> Durante más de 5 años, he trabajado en aplicaciones web y móviles usando React, React Native, Node.js y TypeScript. Me gusta colaborar con equipos backend mediante APIs RESTful y convertir diseños de Figma en productos reales e interactivos.<br/><br/> Me desenvuelvo muy bien en entornos ágiles (Scrum, JIRA, Confluence) y siempre busco estar actualizada con las últimas tecnologías. También he creado sitios web en WordPress y tengo bases sólidas en Python. Fuera del código, disfruto bailar salsa, viajar y ver buenas series.",
 	"contact": {
 		"contactTitle": "Ponte en Contacto",
 		"contactContent": "¿Tienes una pregunta, una idea o simplemente quieres saludar? ¡No dudes en enviarme un mensaje y te responderé lo antes posible!"
@@ -45,8 +45,8 @@
 		"weatherWeb": {
 			"projectDescription": "Mantente a la vanguardia del pronóstico. Obtén actualizaciones e información meteorológica en tiempo real de tu ciudad y más allá."
 		},
-		"matlab": {
-			"projectDescription": "Página en progreso..."
+		"pexelsWeb": {
+			"projectDescription": "Una aplicación de transmisión de videos responsiva creada con Next.js y React. Muestra una lista de videos y una página de reproducción con controles personalizados. Utiliza la API de Pexels para obtener los videos y está diseñada con SCSS y componentes modernos."
 		}
 	},
 	"resume": {

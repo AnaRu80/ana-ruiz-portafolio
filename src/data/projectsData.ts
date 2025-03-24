@@ -4,7 +4,7 @@ import EqelonWebImg from '../assets/images/eqelon-web.png';
 import GlobantImg from '../assets/images/globant-web.png';
 import TaskManagerImg from '../assets/images/task-manager-web.png';
 import WeatherImg from '../assets/images/weather-web.png';
-import MatlabImg from '../assets/images/matlab.png';
+import PexelsImg from '../assets/images/video-stream.app.png';
 import { projectDataInterface } from './interfaces';
 
 export const projectsData: projectDataInterface[] = [
@@ -46,6 +46,16 @@ export const projectsData: projectDataInterface[] = [
 		ownership: 'own',
 	},
 	{
+		framework: 'Next.js | React | API',
+		id: 'pexelsWeb',
+		img: PexelsImg,
+		title: 'Video showing',
+		description:
+			'A responsive video streaming app built with Next.js and React. It features a video list and a detailed player page with custom controls. The app uses the Pexels API to fetch videos and is styled with SCSS and modern UI components.',
+		url: 'https://fabulous-tapioca-fd8fec.netlify.app/',
+		ownership: 'own',
+	},
+	{
 		framework: 'React Native | Redux | React Navigation',
 		id: 'eqelonApp',
 		img: EqelonImg,
@@ -64,15 +74,5 @@ export const projectsData: projectDataInterface[] = [
 			'Ëqelon is a real estate investment firm engaged in the ownership, acquisition, development, managment and disposition of hotels and multifamily properties',
 		url: '#',
 		ownership: 'private',
-	},
-
-	{
-		framework: 'Matlab | Simulink | C++',
-		id: 'matlab',
-		img: MatlabImg,
-		title: 'Matlab Projects',
-		description: 'Page in progress...',
-		url: '#',
-		ownership: 'own',
 	},
 ];

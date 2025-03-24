@@ -8,10 +8,10 @@
 	"home": {
 		"homeTitle": "Hello",
 		"homeName": "I'm Anne",
-		"homeIntro": "Welcome to my digital world! I'm a developer based in Montreal, Canada, with a passion for crafting interactive experiences using JS frameworks and Node, now extending my expertise to include MATLAB for even more possibilities. From coding elegant interfaces to creating mobile marvels, I'm dedicated to turning ideas into reality."
+		"homeIntro": "Welcome to my digital world! I’m a passionate web and mobile developer based in Montreal with over 5 years of experience. I specialize in React, React Native, and Node.js to create modern, user-focused applications. I also have a foundation in Python and experience building websites with WordPress. I love turning ideas into intuitive digital experiences—let’s build something amazing together!"
 	},
 	"aboutMeTitle": "About Me",
-	"aboutMeContent": "I am a former electronic engineer who found her true passion in development. With over five years of experience, I've gone from crafting user interfaces in React to building more extensive applications using Node.js and now incorporating MATLAB. <br/><br/> My journey also led me to master React Native, enabling me to create captivating mobile apps. Beyond the screen, you'll find me engrossed in series, exploring new places, or dancing salsa. Let's collaborate and turn ideas into reality!",
+	"aboutMeContent": "I’m a former electronic engineer who found her true passion in software development. Over the past 5+ years, I’ve worked on web and mobile apps using React, React Native, Node.js, and TypeScript. I enjoy collaborating with backend teams through RESTful APIs and transforming Figma designs into real, interactive products. <br/><br/>I thrive in Agile teams (Scrum, JIRA, Confluence) and always keep an eye on the latest trends. I’ve also created WordPress websites and have a solid foundation in Python. Outside of tech, I enjoy salsa dancing, discovering new places, and binge-watching great series.",
 	"contact": {
 		"contactTitle": "Get in Touch",
 		"contactContent": "Have a question, an idea, or just want to say hi? Feel free to drop me a message, and I'll get back to you as soon as possible!"
@@ -45,8 +45,8 @@
 		"weatherWeb": {
 			"projectDescription": "Stay ahead of the forecast. Get real-time weather updates and insights for your city and beyond."
 		},
-		"matlab": {
-			"projectDescription": "Page in progress..."
+		"pexelsWeb": {
+			"projectDescription": "A responsive video streaming app built with Next.js and React. It features a video list and a detailed player page with custom controls. The app uses the Pexels API to fetch videos and is styled with SCSS and modern UI components."
 		}
 	},
 	"resume": {
