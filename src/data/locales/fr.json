@@ -36,6 +36,9 @@
 		"globant": {
 			"projectDescription": "J’ai participé à la migration et à l’amélioration de la plateforme de recrutement de Globant, en optimisant l’expérience des candidats et en simplifiant le processus de candidature"
 		},
+		"rubikViewer": {
+			"projectDescription": "Cube Rubik 3D interactif développé avec Three.js et Vite. Les utilisateurs peuvent faire pivoter chaque face et explorer des graphismes 3D directement dans le navigateur."
+		},
 		"taskManager": {
 			"projectDescription": "J’ai développé une application de gestion de tâches permettant aux utilisateurs d’organiser efficacement leurs tâches et priorités. Redux a été utilisé pour la gestion d’état et Material-UI pour une interface claire et intuitive."
 		},

@@ -4,6 +4,7 @@ import GlobantImg from '../assets/images/globant-web.png';
 import TaskManagerImg from '../assets/images/task-manager-web.png';
 import WeatherImg from '../assets/images/weather-web.png';
 import PexelsImg from '../assets/images/video-stream.app.png';
+import RubikImg from '../assets/images/rubik-app.png';
 import { projectDataInterface } from './interfaces';
 
 export const projectsData: projectDataInterface[] = [
@@ -33,6 +34,15 @@ export const projectsData: projectDataInterface[] = [
 		title: 'Task Manager',
 		description: 'Manage all your tasks in one place',
 		url: 'https://anaru80.github.io/my-pendings/',
+		ownership: 'own',
+	},
+	{
+		framework: 'JavaScript | Three.js | Vite',
+		id: 'rubikViewer',
+		img: RubikImg,
+		title: 'Rubik Viewer',
+		description: 'Interactive 3D Rubik’s Cube built with Three.js',
+		url: 'https://lively-nougat-d397d7.netlify.app/',
 		ownership: 'own',
 	},
 	{
