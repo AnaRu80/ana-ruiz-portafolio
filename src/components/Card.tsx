@@ -1,4 +1,5 @@
-import { Text } from '.';
+import { NavLink } from 'react-router-dom';
+import { Button, Text } from '.';
 import { projectDataInterface } from '../data/interfaces';
 
 export const Card = ({
@@ -8,6 +9,9 @@ export const Card = ({
   framework,
   onClick,
   ownership,
+  url,
+  figma,
+  github
 }: projectDataInterface) => {
   return (
     <div
@@ -34,6 +38,19 @@ export const Card = ({
           text={ownership}
           classNameText='mt-auto text-neutral-300 dark:text-neutral-600'
         />
+        <div >
+          {url && <NavLink to={url} >
+            <Button text={"Site"} />
+          </NavLink>}
+          {figma && <NavLink to={figma}>
+            <Button text={"Figma"} type='tertiary' />
+          </NavLink>}
+
+          {github && <NavLink to={github}>
+            <Button text={"Github"} type='primary' />
+          </NavLink>}
+        </div>
+
       </div>
     </div>
   );

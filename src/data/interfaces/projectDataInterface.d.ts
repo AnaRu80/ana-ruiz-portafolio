@@ -7,4 +7,6 @@ export interface projectDataInterface {
 	url?: string;
 	onClick?: () => void;
 	ownership: string;
+	figma?: string;
+	github?: string;
 }

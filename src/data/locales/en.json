@@ -39,6 +39,9 @@
 		"rubikViewer": {
 			"projectDescription": "Built an interactive 3D Rubik's Cube using Three.js and Vite. Users can rotate each face individually and explore basic 3D graphics directly in the browser."
 		},
+		"stafflyApp": {
+			"projectDescription": "Designed and built a simple mobile app for requesting time off and managing personal profile details. Implemented features like form validation, date range selection, and a modern UI using React Native Paper."
+		},
 		"taskManager": {
 			"projectDescription": "Created a task management app to help users organize their to-dos and priorities efficiently. Used Redux for state management and Material-UI for a clean, user-friendly interface."
 		},

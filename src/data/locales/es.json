@@ -39,6 +39,9 @@
 		"rubikViewer": {
 			"projectDescription": "Aplicación interactiva de un cubo Rubik en 3D creada con Three.js y Vite. Los usuarios pueden rotar cada cara individualmente y explorar gráficos 3D directamente en el navegador."
 		},
+		"stafflyApp": {
+			"projectDescription": "Diseñé y desarrollé una aplicación móvil sencilla para solicitar días libres y gestionar información personal del perfil. Implementé validación de formularios, selección de rangos de fechas y una interfaz moderna con React Native Paper."
+		},
 		"taskManager": {
 			"projectDescription": "Creé una aplicación de gestión de tareas para ayudar a los usuarios a organizar sus pendientes y prioridades de forma eficiente. Utilicé Redux para el manejo del estado y Material-UI para una interfaz limpia y fácil de usar."
 		},

@@ -5,6 +5,7 @@ import TaskManagerImg from '../assets/images/task-manager-web.png';
 import WeatherImg from '../assets/images/weather-web.png';
 import PexelsImg from '../assets/images/video-stream.app.png';
 import RubikImg from '../assets/images/rubik-app.png';
+import StafflyImg from '../assets/images/staffly-app.png';
 import { projectDataInterface } from './interfaces';
 
 export const projectsData: projectDataInterface[] = [
@@ -26,6 +27,18 @@ export const projectsData: projectDataInterface[] = [
 		description: 'Globant recruitment site',
 		url: 'https://career.globant.com/',
 		ownership: 'private',
+	},
+	{
+		framework: 'React native | react-native-paper | Context API',
+		id: 'stafflyApp',
+		img: StafflyImg,
+		title: 'Staffly',
+		description: 'Staffly employee app site',
+		ownership: 'private',
+		url: 'https://expo.dev/accounts/anar80/projects/staffly/builds/f569206b-3773-4073-840c-cc4aab77bd10',
+		github: 'https://github.com/AnaRu80/staffly',
+		figma:
+			'https://www.figma.com/design/6DSa7ZxoDgaEnxUkriM8MT/Untitled?node-id=0-1&p=f',
 	},
 	{
 		framework: 'React | Redux | Material-Ui',
@@ -71,7 +84,6 @@ export const projectsData: projectDataInterface[] = [
 		title: 'ËQELON APP',
 		description:
 			'Explore new opportunities, have access to details of your investment, and fund´s reports.',
-		url: '#',
 		ownership: 'private',
 	},
 ];

@@ -27,8 +27,10 @@ export function ProjectsPage() {
             title={project.title}
             description={t(`projects.${project.id}.projectDescription`)}
             framework={project.framework}
-            onClick={() => window.open(project.url)}
+            url={project.url}
             ownership={project.ownership}
+            figma={project.figma}
+            github={project.github}
           />
         ))}
       </div>
